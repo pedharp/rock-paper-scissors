@@ -60,9 +60,6 @@ function playRound(playerSelection, computerSelection) {
     let res = [];
     computerSelection = getComputerChoice();
     res.push(playerSelection, computerSelection).toString();
-    console.log(res);
-    console.log(scores);
-    console.log("counter:", counter);
     if (playerSelection === computerSelection) {
         score.innerText = `Player: ${scores[0]}\nComputer: ${scores[1]}`;
         results.innerText = "It's a draw!";
