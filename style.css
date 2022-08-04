@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #bca5ae;
+    background-color: #b35f96;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #f8b;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 10px;
+    width: 8%;
+    padding: 5px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+button:last-of-type {
+    margin-bottom: 10px;
+}
+.score {
+    font-weight: 700;
+    text-align: center;
+}
